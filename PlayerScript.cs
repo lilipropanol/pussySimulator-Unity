@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
 
     public void OnMove(CallbackContext ctx) // Clicar D o A
     {
-        direction = ctx.ReadValue<float>(); // actualitzar cap a on es mou -1, 1 etc.
+        direction = ste.ReadValue<float>(); // actualitzar cap a on es mou -1, 1 etc.
     }
 
     public void OnJump(CallbackContext ctx)
@@ -56,4 +56,6 @@ public class Player : MonoBehaviour
 /*
 fdfd 
  MODIFICATION SIGMA
+xvc
+SHDFKSHDKJFHSKD TU PUTA MADRE LILI BRANCH
 */
