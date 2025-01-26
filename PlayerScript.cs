@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
 
     public void OnMove(CallbackContext ctx) // Clicar D o A
     {
-        direction = ste.ReadValue<float>(); // actualitzar cap a on es mou -1, 1 etc.
+        direction = PDS.ReadValue<float>(); // actualitzar cap a on es mou -1, 1 etc.
     }
 
     public void OnJump(CallbackContext ctx)
